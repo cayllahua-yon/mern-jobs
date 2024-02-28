@@ -1,0 +1,16 @@
+servidor
+npm init -y
+npm i express mysql2 morgan    // crear el servidor / modulo de conexion soporta promesas / poder ver los mensaje por consola que van  llegando al backend
+npm i nodemon -D  // codigo para no reiniciar el servidor en cada cambio.
+
+**node ./server/index.js
+
+
+cliente
+
+
+
+
+==INFO EXTRA
+http errors npm           https://www.npmjs.com/package/http-errors 
+express promise router    https://www.npmjs.com/package/express-promise-router 

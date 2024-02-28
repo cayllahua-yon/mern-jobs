@@ -1,0 +1,21 @@
+{
+  "name": "mern-jobs",
+  "version": "1.0.0",
+  "description": "aplicación utilizando mern para control de trabajo en este caso se utilizara my-sql",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
