@@ -1,16 +1,35 @@
 servidor
+mkdir server
 npm init -y
 npm i express mysql2 morgan    // crear el servidor / modulo de conexion soporta promesas / poder ver los mensaje por consola que van  llegando al backend
 npm i nodemon -D  // codigo para no reiniciar el servidor en cada cambio.
+npm i cors 
+npm i fecha  // para formatear formato de fecha
 
 **node ./server/index.js
 
 
 cliente
+npm create vite     =>PASOS=>  / yes / client / react / react(javascript)
+npm install react-router-dom@6
+npm install formik --save
+npm i axios
 
-
-
+Estilo al Frontend
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 
 ==INFO EXTRA
 http errors npm           https://www.npmjs.com/package/http-errors 
 express promise router    https://www.npmjs.com/package/express-promise-router 
+
+Link es un remplazo de etiqueta <a> lo que permite no refrescar la pagina
+Formik en vez de usar form     https://formik.org/
+    Formik mantendra el estado 
+    Form permitira crear el formulario
+
+Redux -> variables global para mis hijos  -tema Contexto.
+
+final:
+build en cliente :: npm run build 
+crea una carpeta dist
