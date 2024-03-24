@@ -30,6 +30,8 @@ Formik en vez de usar form     https://formik.org/
 
 Redux -> variables global para mis hijos  -tema Contexto.
 
-final:
+final: Para realizar build necesitamos detener tanto el servidor como el cliente
+luego en CLIENT ejecutamos :: npm run build.
+en el servidor ya no porque esta ecrito en javascript
 build en cliente :: npm run build 
 crea una carpeta dist

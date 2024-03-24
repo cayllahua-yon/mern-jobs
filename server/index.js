@@ -13,7 +13,7 @@ const app= express();
 
 
 //Setting
-// const _dirname = dirname(fileURLToPath(import.meta.url));
+const _dirname = dirname(fileURLToPath(import.meta.url));
 // console.log(_dirname)
 //Middlewares - son funciones que se ejecutan antes de que llege a las rutas
 app.use(morgan('dev'))
@@ -26,7 +26,7 @@ app.use(cors({
 app.use(indexRoutes)
 app.use("/api/", jobRoutes)
 // Static files
-// app.use(express.static(join(_dirname, "../client/dist")))
+app.use(express.static(join(_dirname, "../client/dist")))
 //Starting the server
 app.listen(PORT)
 console.log(`servidor inicializado en el puerto ${PORT}`)
